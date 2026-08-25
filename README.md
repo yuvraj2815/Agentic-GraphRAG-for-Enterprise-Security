@@ -9,7 +9,7 @@ claim is grounded in real graph data, never guessed.
 This is a **GraphRAG** system: retrieval-augmented generation where the retrieval
 source is a graph database queried through tools, rather than a vector store.
 
-![Architecture](assets/architecture.svg)
+![Architecture](architecture.svg)
 
 ## Why this exists
 
