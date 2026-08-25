@@ -49,15 +49,17 @@ The three tools:
 
 ### 2. Install
 ```bash
-git clone https://github.com/yuvraj2815/graphrag-security-agent.git
-cd graphrag-security-agent
-python -m venv venv && source venv/bin/activate
+git clone https://github.com/yuvraj2815/Agentic-GraphRAG-for-Enterprise-Security
+
+python -m venv venv
+venv\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
 ### 3. Configure
 ```bash
-cp .env.example .env
+copy .env.example .env
 # edit .env: add your ANTHROPIC_API_KEY and Neo4j password
 ```
 
